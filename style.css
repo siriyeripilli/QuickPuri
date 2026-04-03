@@ -1,0 +1,166 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #ffd2ed, #9ffcf1);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    background: #ff00f7;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+.item img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item p {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+}
+
+button {
+    background: #0d00ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background: #7700e6;
+}
+
+#msg {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+/* Seller page container */
+.seller-container {
+    max-width: 800px;      /* controls overall width */
+    margin: 20px auto;     /* centers horizontally */
+    padding: 10px;
+}
+
+/* Individual order card */
+.order-card {
+    background: #ffffff;
+    padding: 15px 20px;
+    margin: 15px auto;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Bus stop heading */
+.bus-stop {
+    background: #ff00f7;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Buttons inside order */
+.order-card button {
+    margin: 10px 10px 0 0;
+    padding: 8px 18px;
+    font-size: 14px;
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+    .seller-container {
+        max-width: 95%;
+        padding: 5px;
+    }
+
+    .order-card {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .bus-stop {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .order-card button {
+        width: 100%;
+        margin: 8px 0;
+        font-size: 15px;
+    }
+}
+/* Seller table layout */
+.order-table {
+    width: 100%;
+    max-width: 900px;
+    margin: 15px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.order-table th {
+    background: #ff00f7;
+    color: white;
+    padding: 12px;
+}
+
+.order-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.order-table tr:last-child td {
+    border-bottom: none;
+}
+
+.bus-stop {
+    max-width: 900px;
+    margin: 20px auto 5px;
+    background: #ff00f7;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
