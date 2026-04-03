@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 Features  
+##  Features  
 - 🛒 Multi-item ordering with quantity selection  
 - 📦 Supports multiple orders  
 - ⏱️ ETA (Estimated Arrival Time) calculation  
@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ Technologies Used  
+##  Technologies Used  
 - HTML  
 - CSS  
 - JavaScript  
@@ -24,14 +24,14 @@
 
 ---
 
-## ▶️ How to Run  
+##  How to Run  
 1. Open the project in VS Code  
 2. Use Live Server to run `index.html`  
 3. Place orders as a student and view them as a seller  
 
 ---
 
-## 🎯 Purpose  
+##  Purpose  
 To provide a smart and efficient way for students to order street food while traveling and help vendors manage orders effectively.
 
 ---
