@@ -1,4 +1,4 @@
-# 🍽️ Quickpuri – Pre-Order System
+#  Quickpuri – Pre-Order System
 
 ## Quickpuri Description  
  is a web-based application that allows students traveling by bus or college transportation to pre-order street food items like pani puri, dahi puri, chat, and more. The orders are sent to the vendor in advance, enabling them to prepare food early and deliver it quickly at bus stops. This reduces waiting time and improves convenience for both students and sellers.
